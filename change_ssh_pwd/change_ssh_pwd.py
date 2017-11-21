@@ -44,7 +44,8 @@ class SSH_Client():
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage:\npython %s [FILENAME]" % (sys.argv[0]))
+        print("Usage:")
+        print("\t python %s [FILENAME]" % (sys.argv[0]))
         exit(1)
     filename = sys.argv[1]
     print(" [+] Loading file : %s" % filename)
