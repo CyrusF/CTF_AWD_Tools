@@ -45,7 +45,8 @@ class FileEventHandler(FileSystemEventHandler):
 
     def on_modified(self, event):
         if event.is_directory:
-            logging.info("MODIFY : directory {0}".format(event.src_path))
+	    pass
+            # logging.info("MODIFY : directory {0}".format(event.src_path))
         else:
             logging.info("MODIFY : file {0}".format(event.src_path))
 
