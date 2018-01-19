@@ -1,7 +1,8 @@
 # Wscan
 
 a small weakfile_scanner for CTF
-(e.g. robots.txt, index.swp, .git/config, .svn/entries, index.phps ......)
+
+(e.g.  robots.txt  index.swp  .git/config  .svn/entries  index.phps  ......)
 
 ```
 Usage :
