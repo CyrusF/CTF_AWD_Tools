@@ -111,7 +111,8 @@ if __name__ == "__main__":
                 line = line.rstrip("\n")
                 _result = file_scan(line)
                 result[line] = _result
-        for k, v in result:
-            print(k + ":\n" + v)
+        for key in result:
+            print('[+] ' + key)
+            print('[+] ' + str(result[key]))
     else:
         print("error: missing a mandatory option (-u or -l), use -h for basic help")
